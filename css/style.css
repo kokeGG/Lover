@@ -11,31 +11,36 @@ html {
     font-size: 62.5%;
     /* para que 1 rem = 10px*/
 }
+body {
+    font-size: 1.6rem;
+    line-height: 2;
+    background-color: var(--negro);
+}
 *,
 *:before,
 *:after {
     box-sizing: inherit;
     /* Hereda del elemento padre, que es html, tiene la ventaja que si lo usas en otro selector lo hereda al otro selector */
 }
-body {
-    font-size: 1.6rem;
-    line-height: 2;
-    background-color: var(--negro);
+.no-margin {
+    margin: 0; /* eliminar margenes */
 }
 /* Globales */
 .contenedor {
     max-width: 120rem;
     width: 90%;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 30rem;
     /* Para centrar el contenido en la pantalla*/
     /* width: min(90%, 120rem); es lo mismo que max-width y width */
 }
 h1 {
-    font-size: 5.8rem;
+    font-size: 5rem;
+    display: block;
     font-family: var(--fuenteHeading);
     color: var(--blanco);
     text-align: center;
+    
 }
 p {
     font-size: 4.8rem;
