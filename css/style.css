@@ -30,7 +30,7 @@ body {
     max-width: 120rem;
     width: 90%;
     margin: 0 auto;
-    margin-top: 30rem;
+    margin-top: 5rem;
     /* Para centrar el contenido en la pantalla*/
     /* width: min(90%, 120rem); es lo mismo que max-width y width */
 }
@@ -71,6 +71,11 @@ p {
 }
 .boton:hover {
     cursor: pointer;
+}
+.imagenCanelo {
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 canvas {
     position: fixed;
